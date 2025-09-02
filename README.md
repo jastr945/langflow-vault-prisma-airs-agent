@@ -10,6 +10,9 @@ This project demonstrates the powerful **synergy between three enterprise-grade 
 
 ## Agent Flow in Langflow
 
+- Langflow builds the flow and connects to HashiCorp Vault to load all necessary credentials.
+All calls to Prisma and LLMs are securely authenticated using secrets retrieved from Vault - no credentials are ever hardcoded!
+
 - Agent receives input from a user.
 
 - Input is scanned by Prisma AIRS via API.
@@ -19,8 +22,6 @@ This project demonstrates the powerful **synergy between three enterprise-grade 
 - The output from Gemini is again scanned by Prisma AIRS.
 
 - Final response is delivered to the user only if safe.
-
-- All calls to Prisma and LLMs are authenticated securely via secrets retrieved from HashiCorp Vault.
 
 ![Flow UI](img/Vault-Langflow-Airs-UI.png)
 
