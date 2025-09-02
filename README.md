@@ -6,6 +6,8 @@ This project demonstrates the powerful **synergy between three enterprise-grade 
 - **HashiCorp Vault (IBM)** – A centralized secrets management system to secure sensitive data like API keys and credentials.
 - **Palo Alto Networks Prisma AIRS** – An AI security and compliance layer that **scans all model inputs and outputs** for harmful or non-compliant content (like malicious URLs).
 
+![Flow Diagram](img/Vault-Langflow-Airs.jpeg)
+
 ## Agent Flow in Langflow
 
 - Agent receives input from a user.
@@ -19,6 +21,8 @@ This project demonstrates the powerful **synergy between three enterprise-grade 
 - Final response is delivered to the user only if safe.
 
 - All calls to Prisma and LLMs are authenticated securely via secrets retrieved from HashiCorp Vault.
+
+![Flow UI](img/Vault-Langflow-Airs-UI.png)
 
 ---
 
