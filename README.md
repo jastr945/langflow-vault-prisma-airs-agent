@@ -93,6 +93,8 @@ chmod +x vault_setup_local.sh
 ```
 Vault will start and output a log including the **root token**. Copy this value - you’ll need it for Langflow.
 
+> **Note:** The Vault root token is used here for POC convenience only. For secure or production use, replace with [AppRole authentication](https://developer.hashicorp.com/vault/docs/auth/approle), which provides a more secure and auditable way to grant scoped access to secrets.
+
 To check if one of your secrets has been successfully stored in Vault, you can run:
 ```bash
  curl \
