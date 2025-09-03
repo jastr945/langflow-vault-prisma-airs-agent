@@ -55,19 +55,14 @@ Building AI-powered applications requires more than just functional logic. Secur
 
 To use the Prisma AIRS (API Intercept Solution), you’ll need the following:
 
-- A valid Prisma AIRS API token
+- A valid Prisma AIRS API token 
 
 - A configured deployment profile
 
 Once your deployment profile is set up, update its name in two places within the flow:
 
-1. Context with Credentials component
-
-- Open the code > Update profile_name on line 72.
-
-2. Prisma AIRS component
-
-Open the code > Update profile_name on line 377.
+1. `Context with Credentials` component > `Prisma AIRS deployment profile` field
+2. `Prisma AIRS` component  > `Prisma AIRS deployment profile` field
 
 For detailed setup instructions, refer to the [official PANW Prisma AIRS documentation](https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/activate-your-ai-runtime-security-license/create-an-ai-instance-deployment-profile-in-csp).
 
