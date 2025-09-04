@@ -8,6 +8,8 @@ This project demonstrates the powerful **synergy between three enterprise-grade 
 
 ![Flow Diagram](img/Vault-Langflow-Airs.jpeg)
 
+🎥 Short demo: [LinkedIn](https://www.linkedin.com/posts/polinajastrzebska_just-wrapped-up-a-quick-proof-of-concept-activity-7369172667888750592-JT0K)
+
 ## Agent Flow in Langflow
 
 - Langflow builds the flow and connects to HashiCorp Vault to load all necessary credentials.
